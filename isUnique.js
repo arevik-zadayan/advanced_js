@@ -1,5 +1,5 @@
 function isUnique(str) {
     const str1 = new Set(str);
-    return str1.size === str.length;
+    return str1.size === [...str].length;
 }
-console.log(isUnique('arev'))
+console.log(isUnique('arev💇🏿‍👧🧚‍'))
